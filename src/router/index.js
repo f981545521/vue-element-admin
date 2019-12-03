@@ -30,6 +30,11 @@ export default new Router({
                     meta: { title: '基础表格' }
                 },
                 {
+                    path: '/complex-table',
+                    component: () => import(/* webpackChunkName: "table" */ '../components/page/ComplexTable.vue'),
+                    meta: { title: '复杂表格' }
+                },
+                {
                     path: '/tabs',
                     component: () => import(/* webpackChunkName: "tabs" */ '../components/page/Tabs.vue'),
                     meta: { title: 'tab选项卡' }
