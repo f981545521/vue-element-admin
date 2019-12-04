@@ -91,6 +91,10 @@ export default {
                             title: '基本表单'
                         },
                         {
+                            index: 'tree-transfer',
+                            title: 'el-tree-transfer'
+                        },
+                        {
                             index: '3-2',
                             title: '三级菜单',
                             subs: [

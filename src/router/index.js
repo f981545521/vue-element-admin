@@ -45,6 +45,11 @@ export default new Router({
                     meta: { title: '基本表单' }
                 },
                 {
+                    path: '/tree-transfer',
+                    component: () => import(/* webpackChunkName: "form" */ '../components/page/form/TreeTransfer.vue'),
+                    meta: { title: 'el-tree-transfer' }
+                },
+                {
                     // 富文本编辑器组件
                     path: '/editor',
                     component: () => import(/* webpackChunkName: "editor" */ '../components/page/VueEditor.vue'),
